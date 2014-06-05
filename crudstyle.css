@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #3399FF;
+}
+
+#wrapper {
+	padding: 10px;
+}
+
+#title {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#output {
+	margin-top: 30px;
+}
+
+dl {
+	width:100%;
+	overflow:hidden;
+}
+dt {
+	float:left;
+	width:80%; /* adjust the width; make sure the total of both is 100% */
+}
+dd {
+	float:left;
+	width:20%; /* adjust the width; make sure the total of both is 100% */
+}
+
+.newplaylist {
+}

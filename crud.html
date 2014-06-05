@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>CRUD operations with Cloudant</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="crudstyle.css">
+  </head>
+  <body>
+    <script type="application/javascript" src="config"></script>
+    <script type="application/javascript" src="playlist.js"></script>
+
+    <div id="wrapper">
+       <img src="cloudant.png">
+       <div id="title">
+          <b>JavaScript/JQuery CRUD Example</b>
+       </div>
+       <div id="crud">
+          <dl>
+             <dd>Create a New Playlist:</dd><dt><input type="text" id="newplaylistname"><input type="button" id="create" value="CREATE!"></dt>
+             <dd>Display Your Playlist:</dd><dt><input type="text" id="readplaylistname"><input type="button" id="read" value="READ!"></dt>
+             <dd>Add Song to Playlist:</dd><dt><input type="text" class="update" id="updateplaylistname" value="<Playlist Name>"><br/>
+                                               <input type="text" class="update" id="artistname" value="<Artist Name>"><br/>
+                                               <input type="text" class="update" id="songname" value="<Song Title>"><input type="button" id="update" value="UPDATE!"></dt>
+             <dd>Delete a Playlist:</dd><dt><input type="text" id="deleteplaylistname"><input type="button" id="delete" value="DELETE!"><dt>
+          </dl>
+       </div>
+
+       <div id="output">
+          <b>Playlist Output:</b>
+          <p><pre id="output-data"></pre></p>
+
+       </div>
+
+    </div>	
+  </body>
+</html>
