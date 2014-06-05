@@ -13,6 +13,8 @@ How to run
       $ curl -i -u USERNAME -X PUT https://USERNAME.cloudant.com/_api/v2/user/config/cors -H "Content-Type: application/json" -d '{"enable_cors":true,"allow_credentials":true,"allow_methods":["GET","PUT","POST","DELETE","OPTIONS"],"origins":["http://local.dev:8000"]}'
 ```
 6. Start a simple python web server hosting this directory
-      `$ python -m SimpleHTTPServer 8000`
+```
+      $ python -m SimpleHTTPServer 8000
+```
 7. Visit http://local.dev:8000/crud.html
 
